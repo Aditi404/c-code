@@ -12,7 +12,7 @@ int main()
     {
         a++;
         //first digit
-        fir = a / 1000;
+        fir = a / 10000;
         //second digit
         sec = (a / 100)%10;
         //third digit
@@ -22,7 +22,7 @@ int main()
         if (fir != sec && sec != thi && thi != fo && fo != fir && sec != fo && thi != fir)
             break;
     }
-    //next year have distinct digits my first commit
+    //next year have distinct digits my first commit first
     cout << a;
     return 0;
 }
